@@ -1,0 +1,38 @@
+
+.grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(0,0,255,0.4);
+    color: rgba(0,0,0,0.8);
+    text-align: center;
+    font-size: 100px;
+}
+
+.grid div 
+{
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    text-align: center;
+    font-size: 45px;
+    border:5px solid rgba(255,255,255,0.1);
+
+    color:black;
+}
+button {
+background-color:  rgba(0,0,255,0.4);
+    border: none;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .score-body{
+      color:  rgba(0,0,255,0.4);
+  }
